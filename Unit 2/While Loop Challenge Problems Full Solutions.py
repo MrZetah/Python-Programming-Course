@@ -14,12 +14,12 @@ while num > 0:
 
 # Challenge 2
 number = int(input('Enter a positive whole number: '))
-repeat = number - 1
+factorial = 1
 
-while repeat > 1:
-    number = number*repeat
-    repeat -= 1
-print(number)
+while number > 1:
+    factorial = factorial * number
+    number -= 1
+print(factorial)
 
 
 #######################################################
