@@ -1,0 +1,21 @@
+import pygame
+import sys
+from pygame.locals import *
+
+pygame.init()
+window = pygame.display.set_mode((400, 300))
+pygame.display.set_caption('Hello World!')
+
+while True:  #  main game loop
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            pygame.quit()
+            sys.exit()
+    
+    rect_width, rect_height = 80, 50
+    rect_x, rect_y = 200, 100
+    rect_color = (255, 0, 0)
+    pygame.draw.rect(window, rect_color, (rect_x, rect_y, rect_width, rect_height))
+    
+    
+    pygame.display.update()
