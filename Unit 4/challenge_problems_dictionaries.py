@@ -1,14 +1,12 @@
-age_dict = {'ZACHARY  AESHLIMAN': 22, 'FARTUN  AHMED': 40, 'GRACE  BAUMANN': 28, 'TESFAHUN  BONITTO': 46, 'AXEL  BRUNS': 20, 
-                  'COLTON  CLARK': 22, 'CARSON  CROSBY': 60, 'Riley  DALEN': 18, 'MOLLIE  GAMBLE': 39, 'ADAM  GOTTWALT': 57,
-                  'COLTON  HERN': 10, 'OWEN  HOEPNER': 38, 'Gena  JUREK': 55, 'DANIEL  LINGL': 27, 'LUIS  LOZANO': 28, 
-                  'COLTAN  PAUL': 28, 'JENNA  RIEDER': 56, 'IAN  ROBINSON': 18, 'CHRISTIAN  RODRIGUEZ': 39,
-                  'JOHN  SCHELONKA': 35, 'THADDEUS  ZABOROWSKI': 40}
+age_dict = {'ALI  ALI': 22, 'JAILYN  ALVARADO-KONZ': 40, 'Devin  BARNUM': 28, 'MARCUS  BROWN': 46, 'RYDER  DIETMAN': 20, 
+            'HENRIK  ELLICKSON': 22, 'GABE  FREDIN': 60, 'YUNA  GAIDAWIRTH': 18, 'ERIC  HERNANDEZ': 39, 'BEN  KRITZECK': 57, 
+            'CARLEE  LUDWIG': 10, 'NATHAN  OLSON': 38, 'MAVERIC  PETERSON': 55, 'NASH  PETERSON': 27, 'NATHAN  RUHLAND': 28, 
+            'BRODY  SIEBEN': 28, 'COLTON  SKOBLIK': 56, 'AIDAN  TRAN': 18, 'ALLIE  WEHLAGE': 39, 'AUTUMN KRON': 35}
 
-grades_dict = {'ZACHARY  AESHLIMAN': 84, 'FARTUN  AHMED': 82, 'GRACE  BAUMANN': 100, 'TESFAHUN  BONITTO': 84,
-               'AXEL  BRUNS': 78, 'COLTON  CLARK': 99, 'CARSON  CROSBY': 100, 'Riley  DALEN': 82, 'MOLLIE  GAMBLE': 79,
-               'ADAM  GOTTWALT': 88, 'COLTON  HERN': 89, 'OWEN  HOEPNER': 73, 'Gena  JUREK': 78, 'DANIEL  LINGL': 90,
-               'LUIS  LOZANO': 96, 'COLTAN  PAUL': 100, 'JENNA  RIEDER': 75, 'IAN  ROBINSON': 72, 'CHRISTIAN  RODRIGUEZ': 72,
-               'JOHN  SCHELONKA': 92, 'THADDEUS  ZABOROWSKI': 96}
+grades_dict = {'ALI  ALI': 92, 'JAILYN  ALVARADO-KONZ': 72, 'Devin  BARNUM': 100, 'MARCUS  BROWN': 90, 'RYDER  DIETMAN': 84, 
+               'HENRIK  ELLICKSON': 72, 'GABE  FREDIN': 82, 'YUNA  GAIDAWIRTH': 71, 'ERIC  HERNANDEZ': 72, 'BEN  KRITZECK': 81, 
+               'CARLEE  LUDWIG': 68, 'NATHAN  OLSON': 66, 'MAVERIC  PETERSON': 87, 'NASH  PETERSON': 72, 'NATHAN  RUHLAND': 82, 
+               'BRODY  SIEBEN': 79, 'COLTON  SKOBLIK': 99, 'AIDAN  TRAN': 65, 'ALLIE  WEHLAGE': 93, 'AUTUMN KRON': 67}
 
 analyze_this_string = '''Copy this entire chunk into the beginning of your code. Then loop through this string 
                         using a for loop. For each character, set the current character as the key of the dictionary 
