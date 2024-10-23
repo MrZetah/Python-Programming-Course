@@ -1,22 +1,11 @@
 import csv
 import pandas as pd
 
-dictionary_file = 'dictionary_words.csv'       # Must be saved in same folder as your python file. Otherwise provide full or relative path.
-dictionary_list = []
-
-# Open the file and extract the dictionary words
-with open(dictionary_file, 'r') as file:
-    words = csv.reader(file)
-
-    for each_word in words:
-        word = each_word[0].split()     # Some of the words come in batches which throws off challenge 3
-        if len(word) > 1:               # This checks to see if there was a batch of words. If it splits and is still len == 1, it was just one word
-            for split_word in word:     # If the split does separate words, then loop through newly created list and add them to dictionary list
-                dictionary_list.append(split_word)  # don't pull the first index here, that will only pull the first letter.
-        else:
-            dictionary_list.append(each_word[0])    # Only keep this line when first creating dictionary_list code for class
-
-#print(len(dictionary_list))    # Confirm the list length is 101,358
+with open('words_alpha.txt', 'r') as file:     # You must save .txt file to same folder as python file or provide full/relative path
+    words = set(file.read().split())
+        
+dictionary_list = sorted(list(words))
+print(len(dictionary_list))   # Confirm the list length is 370,104
 
 ####################################################
 # Challenge 1
